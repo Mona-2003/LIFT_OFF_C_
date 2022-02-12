@@ -1,19 +1,23 @@
 // c programe to display basic informain
 
-#include <stdio.h>
-
-int main() 
+#include<stdio.h>
+int main()
 {
-    printf("Hi My name is Monalisha Sahu\n");
-    printf("Regd no. - 040\n");
-    printf("Branch - Metallurgical and Materials Engineering\n");
-    printf("Hobbies - Singing and listening to music\n");
-    return 0;
+ int reg;
+ char name[20];
+ char branch[50];
+ char hobbies[50];
+ printf("What's your name\n");
+ gets(name);
+ printf("Tell me your branch name\n");
+ gets(branch);
+ printf("What are your hobbies\n");
+ gets(hobbies);
+ printf("Enter your registration number\n");
+ scanf("%d",&reg);
+ printf(" Your name:%s\n",name);
+ printf("Your branch name:%s\n",branch);
+ printf("Your hobbies:%s\n", hobbies);
+ printf("Your registration number:%d\n",reg);
+ return(0);
 }
-
-
-
-Hi My name is Monalisha Sahu
-Regd no. - 040
-Branch - Metallurgical and Materials Engineering
-Hobbies - Singing and listening to music
